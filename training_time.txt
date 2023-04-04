@@ -3,3 +3,4 @@ MNIST_NN_ChatGPT.ipynb
 
 Mac Air : 24 Min
 Colab CPU : 19 min 
+Colab GPU Tesla T4 : 90 secs
