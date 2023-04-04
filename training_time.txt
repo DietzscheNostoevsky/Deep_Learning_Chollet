@@ -1,0 +1,5 @@
+FIle : 
+MNIST_NN_ChatGPT.ipynb
+
+Mac Air : 24 Min
+Colab CPU : 
