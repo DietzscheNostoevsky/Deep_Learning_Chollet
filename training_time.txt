@@ -5,3 +5,4 @@ Mac Air : 24 Min
 Colab CPU : 19 min 
 Colab GPU Tesla T4 : 90 secs
 Kaggle GPU T4X2 : 104 secs
+Kaggle P100 : 77 secs
