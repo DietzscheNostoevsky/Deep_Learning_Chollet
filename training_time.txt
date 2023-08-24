@@ -8,3 +8,4 @@ Kaggle GPU T4X2 : 104 secs
 Kaggle P100 : 77 secs
 
 New Desktop : 20 min
+New Desktop new tf env : 
