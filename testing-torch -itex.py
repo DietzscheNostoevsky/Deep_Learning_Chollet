@@ -32,7 +32,7 @@ class Net(nn.Module):
 
     def forward(self, x):
         x = self.pool(F.relu(self.conv1(x)))
-        x = x.view(-1, 32 * 13 * 13)
+        x = x.reshape(-1, 32 * 13 * 13)
         x = F.relu(self.fc1(x))
         x = F.dropout(x, training=self.training, p=0.2)
         x = self.fc2(x)
