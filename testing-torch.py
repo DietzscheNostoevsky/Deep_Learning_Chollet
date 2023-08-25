@@ -9,7 +9,6 @@ from torchvision import datasets, transforms
 import torch.nn.functional as F 
 
 # Calculating notebook running time
-#%%
 t0 = time.time()
 
 # Load the MNIST dataset
@@ -20,7 +19,6 @@ testset = datasets.MNIST(root='./data', train=False, download=True, transform=tr
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=32, shuffle=True)
 testloader = torch.utils.data.DataLoader(testset, batch_size=32, shuffle=False)
 
-#%%
 # Define the model architecture
 class Net(nn.Module):
     def __init__(self):
@@ -45,7 +43,6 @@ model = Net().to(device)
 criterion = nn.CrossEntropyLoss()
 optimizer = optim.RMSprop(model.parameters())
 
-#%%
 # Train the model
 for epoch in range(10):
     running_loss = 0.0
@@ -65,7 +62,6 @@ for epoch in range(10):
 
 print(f"Took {time.time()-t0:.2f} secs to run")
 
-#%%
 # Evaluate the model
 model.eval()
 correct = 0
@@ -81,3 +77,5 @@ with torch.no_grad():
 
 print("Test accuracy:", correct/total)
 print(f"Took {time.time()-t0:.2f} secs to run")
+
+# %%

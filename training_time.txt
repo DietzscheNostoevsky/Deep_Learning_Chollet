@@ -16,3 +16,5 @@ New Desktop new tf env : 305 secs
 To enable the following instructions: AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
 
 Problem is COnda 
+
+Desktop Pytorch Condaenv - 444 secs, 0.9898 accuracy
