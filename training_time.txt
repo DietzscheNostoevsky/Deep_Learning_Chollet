@@ -19,3 +19,4 @@ Problem is COnda
 
 Desktop Pytorch Condaenv - 444 secs, 0.9898 accuracy
 Desktop Pytorch pipenv - 444 sec , 0.9813 accuracy 
+Desktop Pytorch mlenv = 438 sec, 0.9659 accuracy
